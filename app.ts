@@ -34,3 +34,36 @@ switch (light) {
     break;
   }
 }
+//Practice days of the week
+let weekDays: number = 4;
+
+switch (weekDays) {
+  case 1: {
+    console.log("today is Saturday");
+    break;
+  }
+  case 2: {
+    console.log("today is Sunday");
+    break;
+  }
+  case 3: {
+    console.log("today is Monday");
+    break;
+  }
+  case 4: {
+    console.log("today is Tuesday");
+    break;
+  }
+  case 5: {
+    console.log("today is Wednesday");
+    break;
+  }
+  case 6: {
+    console.log("today is Thursday");
+    break;
+  }
+  case 7: {
+    console.log("today is Friday");
+    break;
+  }
+}
