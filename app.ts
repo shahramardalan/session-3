@@ -16,3 +16,21 @@ if (score < 0 || score > 100) {
 } else if (score < 50) {
   console.log('Your rank is "F"');
 }
+
+//Traffic light practice
+let light: string = "YELLOW";
+
+switch (light) {
+  case "RED": {
+    console.log('the next color is "Yellow"');
+    break;
+  }
+  case "YELLOW": {
+    console.log('the next color is "Green"');
+    break;
+  }
+  case "GREEN": {
+    console.log('the next color is "Red"');
+    break;
+  }
+}
